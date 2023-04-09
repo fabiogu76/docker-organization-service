@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM FROM registry.access.redhat.com/ubi8/openjdk-17:latest as builder
 ENV APP_FILE organization-service-1.3.jar
 ENV APP_HOME /usr/apps
 EXPOSE 8080
