@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>organization-service</artifactId>
 	<groupId>pl.piomin.services</groupId>
-	<version>1.6</version>
+	<version>1.7</version>
 
 	<properties>
 		<java.version>17</java.version>
