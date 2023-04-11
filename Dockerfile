@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.332.2-jdk17
+FROM openjdk:17-alpine
 ENV APP_FILE organization-service-1.3.jar
 ENV APP_HOME /usr/apps
 EXPOSE 8080
